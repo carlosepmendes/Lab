@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Lab</string>
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+
+    <string name="ToggleBtn">1.1 - Toggle Buttons</string>
+    
 </resources>
