@@ -27,33 +27,9 @@ public class MainActivityFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        // Create dummy data as an array of strings
-        String[] data = {
-                "trololololol",
-                "sup sup sup bros",
-                "granadas",
-                "bombas",
-                "bananas po samu n ficar triste",
-                "sei la"
-        };
-
-        //Turn the array of strings in a arrayList to have more control and access more functions
-        List<String> weekForecast = new ArrayList<String>(Arrays.asList(data));
-
-
-        //Create an arrayAdapter to connect data to the listview
-        mForecastAdapter = new ArrayAdapter<String>(
-          getActivity(),
-                R.layout.list_item_forecast,
-                R.id.list_item_forescast_textview,
-                weekForecast
-        );
 
         View rootView = inflater.inflate(R.layout.fragment_main, container, false);
 
-        //Get the listView and set the adapter to it
-        ListView listview = (ListView) rootView.findViewById(R.id.listview_forecast);
-        listview.setAdapter(mForecastAdapter);
 
         //return inflater.inflate(R.layout.fragment_main, container, false);
         return rootView;
