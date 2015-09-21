@@ -3,5 +3,6 @@
     <string name="action_settings">Settings</string>
 
     <string name="ToggleBtn">1.1 - Toggle Buttons</string>
-    
+    <string name="ToggleBtn1">1.2 - Edit Text</string>
+
 </resources>
