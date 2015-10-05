@@ -10,5 +10,6 @@
     <string name="UI6">1.6 - Radio Buttons</string>
     <string name="Menu1">2.1 - Options Menu</string>
     <string name="Menu2">2.2 - Popup Menu</string>
+    <string name="UIE1">3.1 - onLongPress</string>
 
 </resources>
